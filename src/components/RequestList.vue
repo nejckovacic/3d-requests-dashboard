@@ -1,8 +1,13 @@
 <template>
     <div>
-        <RequestItem v-for="request in requests" :key="request.id" :request="request" />
+        <RequestItem 
+            v-for="request in [...requests].sort((a, b) => new Date(b.date) - new Date(a.date))"
+            :key="request.id" 
+            :request="request" 
+        />
     </div>
 </template>
+
 
 <script>
 import RequestItem from './RequestItem.vue';
@@ -85,10 +90,44 @@ export default {
                     status: true,
                     link: "https://cad.onshape.com/documents/71abd6fc3ce6fed7e6a05485/w/368905de720fe40a577fe632/e/d8a57b8590b4a5671c514ffa?renderMode=0&uiState=6729e07989212b582ec5eacb",
                     date: "2024-11-03"
+                },
+                {
+                    id: 3,
+                    name: "Bathroom Floor Heating Automation Module",
+                    description: "A 2-part module designed to automate the heating system for bathroom floors.",
+                    shortDescription: "2-part module to automate bathroom floor heating.",
+                    longDescription: `
+<strong>3D Printing Factory Order Slip</strong><br>
+<strong>Client:</strong> Nejc Kovačič<br>
+<strong>Order ID:</strong> BFH-2024-004<br><br>
+
+<strong>Item Details:</strong><br>
+<strong>Product Name:</strong> Bathroom Floor Heating Automation Module<br>
+<strong>Parts:</strong> 2 (1 Base, 1 Cover)<br>
+<strong>Material:</strong> PLA (preferred white or closest available shade)<br>
+<strong>Color:</strong> Preferably white<br>
+<strong>Function:</strong> A structural module to enclose and automate the heating system for bathroom floors, ensuring secure and efficient housing for components.<br><br>
+
+<strong>Production Specifications:</strong><br>
+- Quantity: 1 set (1 Base, 1 Cover)<br>
+- Design Considerations: Ensure the parts fit together securely with tight tolerances to maintain structural integrity.<br>
+- Assembly Test: Verify the parts interlock and provide sufficient space for internal components. Feedback on dimensions and assembly ease is appreciated.<br>
+- Design Export: Accessible via the following link for manufacturing:<br>
+<a href="https://cad.onshape.com/documents/fec1792d1ba7c8375931ca82/w/9c8474954c368ab498207504/e/06f893a5d03aa683a2329f9e?renderMode=0&uiState=6750fefba5c0872f8c06c771" target="_blank">View Design</a><br><br>
+
+<strong>Quality Control and Feedback:</strong><br>
+- Fit and Function: Ensure that the module’s parts align properly and can accommodate any internal components.<br>
+- Feedback Needed: Provide notes on dimensional accuracy and any adjustments needed for assembly.<br><br>
+
+<strong>Production Timeline:</strong> Prototype Requested: As soon as possible, followed by feedback for adjustments if needed.<br><br>
+
+<strong>Note:</strong> Designed for practical automation with emphasis on fit and functionality over aesthetics.
+`,
+                    status: false,
+                    link: "https://cad.onshape.com/documents/fec1792d1ba7c8375931ca82/w/9c8474954c368ab498207504/e/06f893a5d03aa683a2329f9e?renderMode=0&uiState=6750fefba5c0872f8c06c771",
+                    date: "2024-12-06"
                 }
             ]
-
-
         };
     }
 };
