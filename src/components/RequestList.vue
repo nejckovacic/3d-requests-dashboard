@@ -149,11 +149,11 @@ export default {
 `,
                     status: true,
                     link: "https://cad.onshape.com/documents/fec1792d1ba7c8375931ca82/w/9c8474954c368ab498207504/e/06f893a5d03aa683a2329f9e?renderMode=0&uiState=6750fefba5c0872f8c06c771",
-                    date: "2024-12-09"
+                    date: "2024-12-08"
                 },
                 {
                     id: 5,
-                    name: "Bathroom Floor Heating Automation Module (Updated Lever)",
+                    name: "Bathroom Floor Heating Automation Module (Updated Lever - AGAIN)",
                     description: "Reprint of the lever for the bathroom floor heating automation module after design modifications to correct issues with the previous print.",
                     shortDescription: "Reprint of the updated lever for bathroom floor heating automation module.",
                     longDescription: `
