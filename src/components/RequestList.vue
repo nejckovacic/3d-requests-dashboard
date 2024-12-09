@@ -147,6 +147,34 @@ export default {
 - Design Export: Accessible via the following link for manufacturing:<br>
 <a href="https://cad.onshape.com/documents/fec1792d1ba7c8375931ca82/w/9c8474954c368ab498207504/e/06f893a5d03aa683a2329f9e?renderMode=0&uiState=6750fefba5c0872f8c06c771" target="_blank">View Design</a><br><br>
 `,
+                    status: true,
+                    link: "https://cad.onshape.com/documents/fec1792d1ba7c8375931ca82/w/9c8474954c368ab498207504/e/06f893a5d03aa683a2329f9e?renderMode=0&uiState=6750fefba5c0872f8c06c771",
+                    date: "2024-12-09"
+                },
+                {
+                    id: 5,
+                    name: "Bathroom Floor Heating Automation Module (Updated Lever)",
+                    description: "Reprint of the lever for the bathroom floor heating automation module after design modifications to correct issues with the previous print.",
+                    shortDescription: "Reprint of the updated lever for bathroom floor heating automation module.",
+                    longDescription: `
+<strong>3D Printing Factory Order Slip</strong><br>
+<strong>Client:</strong> Nejc Kovačič<br>
+<strong>Order ID:</strong> BFH-2024-006<br><br>
+
+<strong>Item Details:</strong><br>
+<strong>Product Name:</strong> Bathroom Floor Heating Automation Module<br>
+<strong>Parts:</strong> 1 (Updated Lever)<br>
+<strong>Material:</strong> PLA (preferred white or closest available shade)<br>
+<strong>Color:</strong> Preferably white<br>
+<strong>Function:</strong> Reprinting the updated lever component for the module. The design has been modified to address dimensional inaccuracies observed in the previous print.<br><br>
+
+<strong>Production Specifications:</strong><br>
+- **Quantity:** 1 (Updated Lever)<br>
+- **Design Focus:** Ensure the updated dimensions allow proper integration with the existing module components (base and cover).<br>
+- **Design Export:** Accessible via the following link for manufacturing:<br>
+<a href="https://cad.onshape.com/documents/fec1792d1ba7c8375931ca82/w/9c8474954c368ab498207504/e/06f893a5d03aa683a2329f9e?renderMode=0&uiState=6750fefba5c0872f8c06c771" target="_blank">View Updated Design</a><br><br>
+<strong>Note:</strong> This order focuses on the updated lever design. Dimensional accuracy and functional fit remain the priorities for testing.
+`,
                     status: false,
                     link: "https://cad.onshape.com/documents/fec1792d1ba7c8375931ca82/w/9c8474954c368ab498207504/e/06f893a5d03aa683a2329f9e?renderMode=0&uiState=6750fefba5c0872f8c06c771",
                     date: "2024-12-09"
