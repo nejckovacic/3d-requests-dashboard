@@ -1,10 +1,7 @@
 <template>
     <div>
-        <RequestItem 
-            v-for="request in [...requests].sort((a, b) => new Date(b.date) - new Date(a.date))"
-            :key="request.id" 
-            :request="request" 
-        />
+        <RequestItem v-for="request in [...requests].sort((a, b) => new Date(b.date) - new Date(a.date))"
+            :key="request.id" :request="request" />
     </div>
 </template>
 
@@ -123,10 +120,38 @@ export default {
 
 <strong>Note:</strong> Designed for practical automation with emphasis on fit and functionality over aesthetics.
 `,
-                    status: false,
+                    status: true,
                     link: "https://cad.onshape.com/documents/fec1792d1ba7c8375931ca82/w/9c8474954c368ab498207504/e/06f893a5d03aa683a2329f9e?renderMode=0&uiState=6750fefba5c0872f8c06c771",
                     date: "2024-12-06"
+                },
+                {
+                    id: 4,
+                    name: "Bathroom Floor Heating Automation Module (Lever Reprint)",
+                    description: "Reprinting the lever for the bathroom floor heating automation module due to incorrect dimensions.",
+                    shortDescription: "Reprint of the lever for bathroom floor heating module.",
+                    longDescription: `
+<strong>3D Printing Factory Order Slip</strong><br>
+<strong>Client:</strong> Nejc Kovačič<br>
+<strong>Order ID:</strong> BFH-2024-005<br><br>
+
+<strong>Item Details:</strong><br>
+<strong>Product Name:</strong> Bathroom Floor Heating Automation Module (Lever Reprint)<br>
+<strong>Parts:</strong> 1 (Lever only)<br>
+<strong>Material:</strong> PLA <br>
+<strong>Color:</strong> Preferably Pink<br>
+<strong>Function:</strong> Reprinting the lever to correct dimensional inaccuracies. This part is critical to the module's function and requires precise tolerances.<br><br>
+
+<strong>Production Specifications:</strong><br>
+- Quantity: 1 (Lever only)<br>
+- Design Considerations: Focus on dimensional accuracy to ensure proper fit with other module parts.<br>
+- Design Export: Accessible via the following link for manufacturing:<br>
+<a href="https://cad.onshape.com/documents/fec1792d1ba7c8375931ca82/w/9c8474954c368ab498207504/e/06f893a5d03aa683a2329f9e?renderMode=0&uiState=6750fefba5c0872f8c06c771" target="_blank">View Design</a><br><br>
+`,
+                    status: false,
+                    link: "https://cad.onshape.com/documents/fec1792d1ba7c8375931ca82/w/9c8474954c368ab498207504/e/06f893a5d03aa683a2329f9e?renderMode=0&uiState=6750fefba5c0872f8c06c771",
+                    date: "2024-12-09"
                 }
+
             ]
         };
     }
