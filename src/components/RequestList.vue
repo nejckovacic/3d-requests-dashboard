@@ -178,7 +178,42 @@ export default {
                     status: false,
                     link: "https://cad.onshape.com/documents/fec1792d1ba7c8375931ca82/w/9c8474954c368ab498207504/e/06f893a5d03aa683a2329f9e?renderMode=0&uiState=6750fefba5c0872f8c06c771",
                     date: "2024-12-09"
+                },
+                {
+                    id: 6,
+                    name: "Under the Desk Control Panel v2",
+                    description: "A 7-part control panel designed to fit under a desk, featuring square and circular buttons and a sleek casing.",
+                    shortDescription: "Under-desk control panel with buttons and casing.",
+                    longDescription: `
+<strong>3D Printing Factory Order Slip</strong><br>
+<strong>Client:</strong> Nejc Kovačič<br>
+<strong>Order ID:</strong> UDC-2024-007<br><br>
+
+<strong>Item Details:</strong><br>
+<strong>Product Name:</strong> Under the Desk Control Panel v2<br>
+<strong>Parts:</strong> 7 (4 square buttons, 1 circular button, 1 casing, 1 front panel)<br>
+<strong>Material:</strong> Any color will do—bonus points if it stands out 🌈<br>
+<strong>Function:</strong> A fun yet functional control panel to mount under a desk.<br><br>
+
+<strong>Production Specifications:</strong><br>
+- **Quantity:** 1 full set (7 parts)<br>
+- **Tolerances:** Designed with small tolerances. Please test and confirm if assembly works smoothly.<br>
+- **Design Export:** Access the design here:<br>
+<a href="https://cad.onshape.com/documents/75039cd5821e3dfc6467f0d0/w/14d6594fbebf820875ff4dd8/e/39d327768d0d7a1ae0b2a855?renderMode=0&uiState=675aba958e537b0ed9ca3817" target="_blank">View Design</a><br><br>
+
+<strong>Quality Control and Feedback:</strong><br>
+- **Fit Test:** Verify buttons fit the casing properly without resorting to creative force.<br>
+- **Feedback Needed:** Let me know if the tolerances are too tight or if things need adjustments.<br><br>
+
+<strong>Production Timeline:</strong> Whenever you’re ready to make under-desk magic happen!<br><br>
+
+<strong>Note:</strong> It’s a control panel—practical, but it wouldn’t hurt if it looked fabulous!
+`,
+                    status: false,
+                    link: "https://cad.onshape.com/documents/75039cd5821e3dfc6467f0d0/w/14d6594fbebf820875ff4dd8/e/39d327768d0d7a1ae0b2a855?renderMode=0&uiState=675aba958e537b0ed9ca3817",
+                    date: "2024-12-12"
                 }
+
 
             ]
         };
