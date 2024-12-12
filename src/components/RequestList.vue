@@ -169,9 +169,9 @@ export default {
 <strong>Function:</strong> Reprinting the updated lever component for the module. The design has been modified to address dimensional inaccuracies observed in the previous print.<br><br>
 
 <strong>Production Specifications:</strong><br>
-- **Quantity:** 1 (Updated Lever)<br>
-- **Design Focus:** Ensure the updated dimensions allow proper integration with the existing module components (base and cover).<br>
-- **Design Export:** Accessible via the following link for manufacturing:<br>
+- Quantity: 1 (Updated Lever)<br>
+- Design Focus: Ensure the updated dimensions allow proper integration with the existing module components (base and cover).<br>
+- Design Export: Accessible via the following link for manufacturing:<br>
 <a href="https://cad.onshape.com/documents/fec1792d1ba7c8375931ca82/w/9c8474954c368ab498207504/e/06f893a5d03aa683a2329f9e?renderMode=0&uiState=6750fefba5c0872f8c06c771" target="_blank">View Updated Design</a><br><br>
 <strong>Note:</strong> This order focuses on the updated lever design. Dimensional accuracy and functional fit remain the priorities for testing.
 `,
@@ -196,14 +196,14 @@ export default {
 <strong>Function:</strong> A fun yet functional control panel to mount under a desk.<br><br>
 
 <strong>Production Specifications:</strong><br>
-- **Quantity:** 1 full set (7 parts)<br>
-- **Tolerances:** Designed with small tolerances. Please test and confirm if assembly works smoothly.<br>
-- **Design Export:** Access the design here:<br>
+- Quantity: 1 full set (7 parts)<br>
+- Tolerances: Designed with small tolerances. Please test and confirm if assembly works smoothly.<br>
+- Design Export: Access the design here:<br>
 <a href="https://cad.onshape.com/documents/75039cd5821e3dfc6467f0d0/w/14d6594fbebf820875ff4dd8/e/39d327768d0d7a1ae0b2a855?renderMode=0&uiState=675aba958e537b0ed9ca3817" target="_blank">View Design</a><br><br>
 
 <strong>Quality Control and Feedback:</strong><br>
-- **Fit Test:** Verify buttons fit the casing properly without resorting to creative force.<br>
-- **Feedback Needed:** Let me know if the tolerances are too tight or if things need adjustments.<br><br>
+- Fit Test: Verify buttons fit the casing properly without resorting to creative force.<br>
+- Feedback Needed: Let me know if the tolerances are too tight or if things need adjustments.<br><br>
 
 <strong>Production Timeline:</strong> Whenever you’re ready to make under-desk magic happen!<br><br>
 
