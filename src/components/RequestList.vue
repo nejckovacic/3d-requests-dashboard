@@ -212,7 +212,37 @@ export default {
                     status: false,
                     link: "https://cad.onshape.com/documents/75039cd5821e3dfc6467f0d0/w/14d6594fbebf820875ff4dd8/e/39d327768d0d7a1ae0b2a855?renderMode=0&uiState=675aba958e537b0ed9ca3817",
                     date: "2024-12-12"
+                },
+                {
+                    id: 7,
+                    name: "Toothbrush Cup Cover",
+                    description: "A simple cover to transform a regular cup into a toothbrush holder.",
+                    shortDescription: "Cup cover to turn it into a toothbrush holder.",
+                    longDescription: `
+<strong>3D Printing Factory Order Slip</strong><br>
+<strong>Client:</strong> Nejc Kovačič<br>
+<strong>Order ID:</strong> TCC-2024-008<br><br>
+
+<strong>Item Details:</strong><br>
+<strong>Product Name:</strong> Toothbrush Cup Cover<br>
+<strong>Parts:</strong> 1 (Cup Cover)<br>
+<strong>Material:</strong> Any available color (please let me know the options so I can check with my mom 🌈)<br>
+<strong>Function:</strong> A cover designed to fit over a cup, converting it into a toothbrush holder.<br><br>
+
+<strong>Production Specifications:</strong><br>
+- **Quantity:** 1<br>
+- **Design Export:** Access the design here:<br>
+<a href="https://cad.onshape.com/documents/6a3db667a9c813f95b53c510/w/22f6a31166dd13a13a8a418d/e/b357a85dd7fdbbf0c763834a" target="_blank">View Design</a><br><br>
+
+<strong>Production Timeline:</strong> No rush—whenever you have time!<br><br>
+
+<strong>Note:</strong> Please let me know the color options so I can check with my mom before printing.
+`,
+                    status: false,
+                    link: "https://cad.onshape.com/documents/6a3db667a9c813f95b53c510/w/22f6a31166dd13a13a8a418d/e/b357a85dd7fdbbf0c763834a",
+                    date: "2024-12-14"
                 }
+
 
 
             ]
