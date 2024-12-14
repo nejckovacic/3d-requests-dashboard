@@ -241,7 +241,7 @@ export default {
 <strong>Note:</strong> Please let me know the color options so I can check with my mom before printing.
 `,
                     status: false,
-                    link: "https://cad.onshape.com/documents/6a3db667a9c813f95b53c510/w/22f6a31166dd13a13a8a418d/e/b357a85dd7fdbbf0c763834a",
+                    link: "https://cad.onshape.com/documents/6a3db667a9c813f95b53c510/w/22f6a31166dd13a13a8a418d/e/b357a85dd7fdbbf0c763834a?renderMode=0&uiState=675d642867a20119996a2050",
                     date: "2024-12-14"
                 }
 
