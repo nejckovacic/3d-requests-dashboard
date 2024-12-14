@@ -1,10 +1,10 @@
 <template>
     <div>
         <RequestItem v-for="request in [...requests].sort((a, b) => new Date(b.date) - new Date(a.date))"
-            :key="request.id" :request="request" />
+            :key="request.id" :request="request" :is-expanded="request.id === expandedId"
+            @toggle="setExpanded(request.id)" />
     </div>
 </template>
-
 
 <script>
 import RequestItem from './RequestItem.vue';
@@ -17,6 +17,8 @@ export default {
     data() {
         return {
             requests: [
+                // Your requests go here
+
                 {
                     id: 1,
                     name: "Fingerbot Housing for Electric Radiator",
@@ -244,9 +246,47 @@ export default {
                 }
 
 
-
-            ]
+            ],
+            expandedId: null,
         };
-    }
+    },
+    created() {
+        // Parse the ID from the URL and expand it on load
+        const urlParams = new URLSearchParams(window.location.search);
+        const idFromUrl = parseInt(urlParams.get("id"));
+        if (idFromUrl) {
+            this.expandedId = idFromUrl;
+
+            // Scroll into view after DOM is rendered
+            this.$nextTick(() => {
+                const targetElement = document.getElementById(`request-${idFromUrl}`);
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: "smooth", block: "start" });
+                }
+            });
+        }
+    },
+    methods: {
+        setExpanded(id) {
+            // Toggle expandedId to allow only one expanded at a time
+            if (this.expandedId === id) {
+                this.expandedId = null;
+                this.updateUrl(); // Clear the ID from the URL
+            } else {
+                this.expandedId = id;
+                this.updateUrl(id); // Update the URL with the new ID
+            }
+        },
+        updateUrl(id = null) {
+            // Update the URL with the expanded request's ID
+            const url = new URL(window.location.href);
+            if (id) {
+                url.searchParams.set("id", id);
+            } else {
+                url.searchParams.delete("id");
+            }
+            window.history.pushState({}, "", url);
+        }
+    },
 };
 </script>
